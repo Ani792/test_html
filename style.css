@@ -74,7 +74,7 @@ p{
  
 } 
 #main{
-    background-image: url(./img/photo_5276460910929635998_y.jpg);
+    background-image: url(./img/doctor-dentist-writing-report-working-with-tooth-x-ray-film-model-equipment-used-5.webp);
     background-repeat: no-repeat;
     background-size: cover;
     padding-left: 90px;
@@ -254,6 +254,7 @@ section{
     /* justify-content: center; */
     gap: 30px;
     flex-wrap: wrap;
+    margin-top: 50px;
     
 }
 .strings{
