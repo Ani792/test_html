@@ -1,23 +1,15 @@
-@media  (max-width: 768px){
-  #main{
-    padding-left: 10px !important;
-  }
-  #top-nav-bar {
-
-    margin-left: auto;
-    display: flex;
-    justify-content: flex-end;
-}
+*{
+    margin: 0;
+    padding: 0;
 }
 body {
-    background-image: url(./img/doctor-dentist-writing-report-working-with-tooth-x-ray-film-model-equipment-used-5.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-
+    padding: 0;
+    margin: 0;
+    background-color: #141D29;
 }
 h2 {
     color: white;
-
+    margin-top: 20px;
     font-family: sans-serif;
     
 }
@@ -28,30 +20,25 @@ input {
     border-radius: 30px;
     height: 50px;
     width: 130px;
-    border: none;
-    margin-right: 10px;
-    margin-top: 20px;
-    /* transform: translate(1100px, -60px); */
-    
-    
+    border: none; 
 }
 .login{
     font-weight: 900;
     color: white;
     background: linear-gradient(to right, #0078D6, #0340A5);
+    margin-top: 10px;
 }
 .reg{
     font-weight: 900;
     color: white;
     background: linear-gradient(to right, #FEA937, #EF3246);
+    margin-top: 10px;
 }
-h1{
+.h1{
     color: #0156D1;
     font-family: sans-serif;
     font-weight: 900;
-
-    /* transform: translate(390px, 100px) scale(2); */
-    
+    font-size:72px;  
 }
 .play{
     font-weight: 900;
@@ -64,17 +51,19 @@ h1{
     height: 70px;
     width: 130px;
     font-size: 19px;
+    margin-left: 10px;
+    
+    
 }
 
 .crypto-game{
     font-family: sans-serif;
     font-weight: 900;
-    width: 600px;
-    height: 200px;
+
 }
 p{
     color: white;
-    margin-top: -50px;
+    margin-top: 50px;
     font-family: sans-serif;
     font-weight: 700;
     opacity: 0.7;
@@ -85,15 +74,279 @@ p{
  
 } 
 #main{
+    background-image: url(./img/photo_5276460910929635998_y.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-left: 90px;
     padding-right: 10px;
+    z-index: -1; 
 }
 #info{
     display:flex;
     flex-direction: column;
-    margin-top: 220px;
+    margin-top:120px;
 }
 #info-text-div{
     display: flex;
-    flex-direction: row; 
+    flex-direction: column;
+    align-items: flex-start;
+}
+#h12{
+    display: flex;
+    align-items: center;
+}
+
+h3{
+   
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+    /* display: flex;
+    justify-content: center; */
+    margin-top: 50px;
+    
+}
+
+#bc-blue{
+
+    background-color: #0D131C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+} 
+
+.light-bc-blue{
+    background-color: #131828;
+    /* height: 700px; */
+    width: 100%;
+    padding-bottom: 30px;
+    margin:auto;
+}
+.all{
+    display: flex;
+    justify-content: center;     
+    align-items: center;
+    gap: 80px;
+    /* margin-top: 70px; */
+    flex-wrap: wrap;
+}
+p{
+    color: white;
+    font-family: sans-serif;
+}
+.TheProject-gaming{
+    font-weight: 900;
+}
+
+.collection{
+    background-color: #161F2C;
+    border: 3px solid #05358C;
+    height: 550px;
+    width: 400px;
+    border-start-start-radius: 10px;
+    border-start-end-radius: 10px;
+    border-end-start-radius: 10px;
+    border-end-end-radius: 10px;
+    display: flex;
+    flex-direction: column;       
+    justify-content: center;     
+    align-items: center;
+    gap: 5px; 
+    padding-top: 5rem;
+    margin-top: 30px;
+
+}
+.second-play-button{
+    font-weight: 900;
+    color: white;
+    background: linear-gradient(to right, #0078D6, #0340A5);
+ 
+}
+#work_with_div{
+    height: 100px;
+}
+.context-how-it-works{
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#four-group{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+#process-steps{
+    display: flex;
+    flex-direction: column;
+}
+
+#process-steps>h3{
+    font-weight: 900;
+    font-size: 40px;
+    margin-top: 100px;
+
+}
+.context-how-it-works-sec{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+ul{
+    list-style-type: disc;
+    margin-top: 80px;
+}
+li{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+    
+}
+#ul_div{
+    margin-left: 100px;
+}
+.key{
+    color: #0442A8;
+    font-weight: 900;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin: auto; 
+
+}
+section{
+    width: 100%;
+    display: flex;
+    margin:auto;
+    justify-content: space-between;
+    margin-top: 200px;
+    flex-wrap: wrap;
+} 
+.advantages{
+    color: #0442A8;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#liquidity-pool{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.liquidity-pool-p{
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+   
+}
+.collection2{
+    display: flex;
+    /* justify-content: center; */
+    gap: 30px;
+    flex-wrap: wrap;
+    
+}
+.strings{
+    opacity: 1;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: serif;
+}
+.pic-txt{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+@media(max-width: 600px) {
+   .h1{
+    font-size: 33px;
+   }
+   .play{
+       height: 40px;
+       width: 100px;
+   }
+   #main{
+    padding: 10px !important;
+   }
+   #buttons{
+    display: flex;
+    flex-direction: column;
+   }
+   .key{
+    font-size: 30px;
+   }
+   .cubic{
+    height: 400px;
+    /* width: 400px; */
+   }
+   .pool{
+    height: 370px;
+    /* width: 450px; */
+
+   }
+   .collection{
+        padding: 10px !important;
+   }
+    .all{
+        padding: 20px !important;
+    }
+    .pics{
+        display: flex;
+        justify-self: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    #ul_div {
+        /* margin-left: 100px; */
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+    }
+    .advantages{
+        font-size: 30px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .collection2 {
+        width: 200px;
+    }
+    .pic-txt {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .liquidity-pool-p{
+        text-align: center;
+        font-weight: 600;
+       
+    }
+    .pic{
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .svg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+    }
+    .strings{
+        
+        text-align: center;
+    }
 }
